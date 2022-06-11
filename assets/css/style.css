@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#333;
+    height: 100vh;
+    color: #fff;
+}
+main{
+    border: 2px solid #fff;
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+main div {
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    position: absolute;
+}
+main div span{
+    width: 15px;
+    height: 5px;
+    background-color: #fff;
+    display: flex;
+    margin-top:120px;
+    border-radius: 5px;
+}
+.ponteiros{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: -33px;
+}
+.ponteiros .p{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform-origin:left center;
+    position: absolute;
+    margin-left:3px ;
+    transform: rotateZ(720deg);
+}
+.ponteiros .hrs{
+    width: 90px;
+    height: 8px;
+    background-color: #fff;
+}
+.ponteiros .min{
+    width: 70px;
+    height: 8px;
+    background-color: #fff;
+}
+.ponteiros .sec{
+    width: 80px;
+    height: 4px;
+    background-color: #f00;
+}
+.ponteiros .encaixe{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+section{
+    margin-top: 20px;
+    font-size: 30px;
+}
+footer{
+    margin-top:20px;
+}
